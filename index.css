@@ -1,9 +1,112 @@
-div {
-    background-color: aqua;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,800&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    height: 30px;
+    width: 140px;
     border-radius: 5px;
+}
+
+nav {
+    background-color: #1F2937;
+}
+
+nav p {
+    font: 24px #F9FAF8
+}
+
+nav a {
+    font: 18px #E5E7EB
+}
+
+#header {
+    background-color: #1F2937;
+}
+
+h1 {
+    font: 48px 800 #F9FAF8;
+}
+
+#header p {
+    font: 18px #E5E7EB
+}
+
+#top-image {
+    width: 500px;
+    height: 200px;
+
+}
+
+#information-div {
+    display: block;
+    justify-content: center;
+}
+
+h2 {
+    font: 36px 800 #1f2937;
+    text-align: center;
+    padding: 20px
+}
+
+#pictures-div {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between
+}
+
+.pic-div {
+    color: #1F2937;
+}
+.info-image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6 ;
+    border-radius: 10px;
+    margin: 20px
+}
+
+#quote-div {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font: 36px light italic #1F2937
+
+}
+
+cite {
+    color: #1F2937
+}
+
+#signup-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#second-signup-div {
+    width: 75vw;
+    margin: 50px;
+    padding: 40px 80px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
